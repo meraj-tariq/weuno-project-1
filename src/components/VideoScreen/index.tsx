@@ -33,7 +33,7 @@ const VideoComponent = () => {
               alt="The Groves Logo"
               width={1200}
               height={900}
-              className="w-full h-auto object-cover max-w-7xl" // Ensure the image is responsive
+              className="w-full h-auto object-cover max-w-7xl" 
             />
 
             <div className="absolute flex justify-center items-center">
@@ -54,7 +54,7 @@ const VideoComponent = () => {
             </h2>
             <p className="text-lg text-white/80">
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
+              industry. Lorem Ipsum has been the industry standard dummy text
               since the 1500s.
             </p>
           </div>

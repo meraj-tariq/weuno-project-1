@@ -1,13 +1,6 @@
 "use client";
 
 import React from "react";
-import { ArrowRight } from "lucide-react";
-import {
-  Instagram,
-  Twitter,
-  Snail as Snapchat,
-  BookText as TikTok,
-} from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 

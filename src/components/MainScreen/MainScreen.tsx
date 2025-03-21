@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import logoImage from "@images/mainPoster.png";
 
 const slides = [
@@ -27,20 +27,7 @@ const slides = [
 export default function MainScreen() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const nextSlide = () => {
-    const isLastSlide = currentIndex === slides.length - 1;
-    const newIndex = isLastSlide ? 0 : currentIndex + 1;
-    setCurrentIndex(newIndex);
-  };
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      nextSlide();
-    }, 5000);
-
-    return () => clearInterval(timer);
-  }, [currentIndex]);
-
+ 
   return (
     <div className="relative h-screen group">
       <div
